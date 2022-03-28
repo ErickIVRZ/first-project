@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Estilo de mi aplicacion*/
+.App{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+
 }
 
-.App-link {
-  color: #61dafb;
+/*Estilo del contendor de mis quotes*/
+.quote{
+  background: url(./images/bg.jpg);
+  background-size:cover;
+  width: 450px;
+  height: 320px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Estilo de mi texto h1*/
+.text{
+  font-size: 23px;
+  font-family: 'Lobster', cursive;
+}
+/*Estilo de mi texto h2*/
+.author{
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+}
+
+/*Estilo de mi button*/
+.my-button{
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: rgba(255, 192, 55, 0.781);
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
 }
